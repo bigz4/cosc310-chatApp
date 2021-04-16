@@ -84,11 +84,11 @@ Test against rendering main component without crashing: We used React.JS library
 Test for looking at response status: We can check if we get a successful response. We call on axios and see if we get a 200 reponse which is successful and a 400 response which is unsuccessful. 
 
 ### Added APIs
-- Google maps API
+- Google Maps API
 - Google Street View API
 
 ### Google Maps API
 This API is used to help users of the Chat App to locate the location of the appointment they booked. Once the appointment is fully booked a map with a marker is pushed through as a message in the app. The marker is located on the building where the appointment is taking place. the map is also fully interactable, so the user can zoom in/out and move the position around. 
 
 ### Google Street View API
-this API is used in a supporting role to the Google Maps API, as it shows a static image of the building where the appointment is taking place.
+This API is used in a supporting role to the Google Maps API, as it shows a static image of the building where the appointment is taking place.
