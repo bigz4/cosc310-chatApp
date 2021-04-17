@@ -37,7 +37,6 @@ class Map extends Component{
           center={this.props.center}
           zoom={16}
         >
-          { /* Child components, such as markers, info windows, etc. */ }
           <Marker
             position={this.props.position}
           />
