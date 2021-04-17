@@ -3,7 +3,7 @@ import "./App.css";
 import { Widget, addResponseMessage, renderCustomComponent} from "react-chat-widget";
 import "react-chat-widget/lib/styles.css";
 import axios from "axios";
-import { useEffect, useState, useCallback, Component, ReactDOM } from "react";
+import { useEffect, useState, Component } from "react";
 import Sentiment from "sentiment";
 import {GoogleMap, LoadScript, Marker} from "@react-google-maps/api";
 import { render } from "@testing-library/react";
